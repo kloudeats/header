@@ -1,0 +1,74 @@
+<!-- <h1>{{ site.Title }}</h1> -->
+<div class="main-header">
+    <div class="header-logo">
+      <img alt="logo" src='/images/Yourlogo.png' />
+    </div>
+  
+    <div class="navlinks-header">
+      <ul>
+        <li id="home-link">
+          Home
+        </li>
+        <li id="order-link">
+          Order Online
+        </li>
+        <li id="gallery-link">
+          Gallery
+        </li>
+        <li id="about-link">
+          About Us
+        </li>
+        <li id="reviews-link">
+          Reviews
+        </li>
+        <li id="contact-link">
+          Contact Us
+        </li>
+      </ul>
+      </ul>
+    </div>
+    <div class="sidebartoggel" style="color: white; font-size: 30px; " data-bs-toggle="offcanvas" href="#offcanvasExample"
+      role="button" aria-controls="offcanvasExample">
+      ☰
+  
+    </div>
+  
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel"
+      style="width: 50%;">
+      <div class="offcanvas-header">
+        <div></div>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"
+          style="background-color: white; padding-top: 20px; padding-right: 25px;"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="main">
+          <ul class="sidebar-ul">
+            <li class="sidebar-li" role="button" id="home-link">
+              Home
+            </li>
+            <li class="sidebar-li btn-order" id="order-link">
+              Order Online
+            </li>
+            <li class="sidebar-li" role="button" id="gallery-link">
+              Gallery
+            </li>
+            <li class="sidebar-li" role="button" id="about-link">
+              About Us
+            </li>
+            <li class="sidebar-li" role="button" id="reviews-link">
+              Reviews
+            </li>
+            <li class="sidebar-li" role="button" id="contact-link">
+              Contact Us
+            </li>
+          </ul>
+        </div>
+  
+  
+      </div>
+    </div>
+  
+  
+  </div>
+  
+  <!-- {{ partial "menu.html" (dict "menuID" "main" "page" .) }} -->
